@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Contacto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Contacto</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <h2 align="center">Información de contacto</h2>
+
+  <form action="ejemplo.php" method="get">
+    <p>Nombre: <input type="text" name="nombre" size="40"></p>
+    <p>Asunto: <input type="text" name="asunto" size="40"></p>
+    <p>Numero celular: <input type="number" name="contacto" min="1900"></p>
+    <p>Correo electronico: <input type="text" name="contacto1" size="20"></p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </p>
+  </form>
+  <br>
+  <ion-icon name="logo-whatsapp"></ion-icon> <a href="https://wa.me/+529513169715?text=Hola,%20buenas%20tardes">
+    <p>
+      Contactanos a traves de Whatsaap
+    </p>
+  </a>
+  <br>
+  <ion-icon name="mail-outline"></ion-icon><a href="mailto:pfjimenez23l@gmail.com?subject=Informes%20Monte%20Alban&body=Buenas%20tardes%2C%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n%20sobre%20su%20tour.">Contactanos a traves de G-mail</a>
+  
+  
+
+
+
+</ion-content>

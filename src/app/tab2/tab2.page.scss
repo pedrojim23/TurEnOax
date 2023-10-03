@@ -1,0 +1,47 @@
+details summary {
+    list-style: none; /* ocultamos la flecha */
+    cursor: pointer; /* cambia el cursor del puntero */
+}
+summary{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: oblique;
+    font-size: 85%;
+    color: #FFD700;
+    line-height: 1.5em;
+    font: Didot;
+    text-align: justify;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: oblique;
+    font-size: 85%;
+    color: #FFD700;
+    line-height: 1.5em;
+    font: Didot;
+    text-align: justify;
+}
+h3{
+    margin-left: 5%;
+}
+section{
+    margin-left: 5%;
+    display: flex;
+    width: 15%;
+    height: 15%;
+}
+a{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: oblique;
+    font-size: 85%;
+    color: #FFD700;
+    line-height: 1.5em;
+    font: Didot;
+    text-align: justify; 
+}
+iframe{
+    margin-left: 5%;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "TurEnOax",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
